@@ -60,7 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -68,6 +68,8 @@
       <recent name="C:\Users\steph\Desktop\Mod\Mod-Tutorial\Tutorial\src\main\resources\assets\tutorial\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\steph\Desktop\Mod\Mod-Tutorial\Tutorial\src\main\resources" />
+      <recent name="C:\Users\steph\Desktop\Mod\Mod-Tutorial\Tutorial\src\main\resources\assets\data\tutorial\loot_table\blocks" />
       <recent name="C:\Users\steph\Desktop\Mod\Mod-Tutorial\Tutorial\src\main\resources\assets\tutorial\models\block" />
     </key>
   </component>
@@ -127,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592246346564</updated>
-      <workItem from="1592246349720" duration="4959000" />
+      <workItem from="1592246349720" duration="9354000" />
     </task>
     <servers />
   </component>
@@ -155,25 +157,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592246662713" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592253271082">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592334604511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592253271082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592253271082">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592334604511" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592334604510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592253271082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592253271082">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592334604510" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592334604510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592253271082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592253271082">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592334604510" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592334604510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592253271082" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1592247621320">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592334604510" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592334265174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592247621320" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592334265174" />
   </component>
 </project>
