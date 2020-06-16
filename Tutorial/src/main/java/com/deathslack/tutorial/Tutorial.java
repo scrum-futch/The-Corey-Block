@@ -4,6 +4,7 @@ import com.deathslack.tutorial.blocks.FirstBlock;
 import com.deathslack.tutorial.blocks.ModBlocks;
 import com.deathslack.tutorial.setup.ClientProxy;
 import com.deathslack.tutorial.setup.IProxy;
+import com.deathslack.tutorial.setup.ModSetup;
 import com.deathslack.tutorial.setup.ServerProxy;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -32,7 +33,7 @@ public class Tutorial
 {
     public static IProxy proxy = DistExecutor.runForDist(()->()->new ClientProxy(),()->()->new ServerProxy());
     private static final Logger LOGGER = LogManager.getLogger();
-
+    public static ModSetup setup = new ModSetup();
     public Tutorial() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -49,11 +50,8 @@ public class Tutorial
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-       /* LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
-
-        */
+       setup.init();
+       proxy.init();
     }
 /*
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -93,7 +91,9 @@ public class Tutorial
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
-            event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, new Item.Properties()).setRegistryName("firstblock"));
+            Item.Properties properties = new Item.Properties()
+            .group(setup.itemGroup);
+            event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
         }
     }
 }
